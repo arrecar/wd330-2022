@@ -1,7 +1,7 @@
 const links = [
     {
       label: "Week1",
-      url: "https://github.com/arrecar/wdd330-2022/tree/week1"
+      url: "https://github.com/arrecar/wdd330-2022/tree/main/week1"
     }
 ]
 
