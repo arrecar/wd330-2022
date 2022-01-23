@@ -1,0 +1,50 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>WDD Portfolio - Week3 - DOM</title>
+            <style>body { min-height: 200px }
+            img {
+                width: 30px
+            }
+            </style>
+
+
+        </head>
+
+        <body>
+            <h1>DOM Manipulation</h1>
+            <ol>
+                <li>Build a table</li>
+                    <p>For each row, the &lttable&gt tag contains a &lttr&gt tag. Inside of these &lttr&gt tags, we can put cell elements: either heading cells 
+                        (&ltth&gt) or regular cells (&lttd&gt).</p>
+                    <p>Given a data set of mountains, an array of objects with name, height, and place properties, generate the DOM structure for a table that 
+                        enumerates the objects. It should have one column per key and one row per object, plus a header row with &ltth&gt elements at the top, listing 
+                            the column names.</p>
+                    <p>Write this so that the columns are automatically derived from the objects, by taking the property names of the first object in the data.</p>
+                    <p>Add the resulting table to the element with an id attribute of "mountains" so that it becomes visible in the document.</p>
+                    <p>Once you have this working, right-align cells that contain number values by setting their style.textAlign property to "right".</p>
+                    <h1>Mountains</h1>
+
+                    <div id="mountains"></div>
+                <li>Elements by Tag name</li>
+                    <p>The document.getElementsByTagName method returns all child elements with a given tag name. Implement your own version of this as a function that 
+                        takes a node and a string (the tag name) as arguments and returns an array containing all descendant element nodes with the given tag name.</p>
+                    <p>To find the tag name of an element, use its nodeName property. But note that this will return the tag name in all uppercase. Use the toLowerCase 
+                        or toUpperCase string methods to compensate for this.</p>
+                        <h1>Heading with a <span>span</span> element.</h1>
+                        <p>A paragraph with <span>one</span>, <span>two</span>
+                          spans.</p>
+                <li>The cat's hat</li>
+                    <p>Extend the cat animation defined earlier so that both the cat and his hat (<img src="hat.png">) orbit at opposite sides of the ellipse.</p>
+                    <p>Or make the hat circle around the cat. Or alter the animation in some other interesting way.</p>
+                    <p>To make positioning multiple objects easier, it is probably a good idea to switch to absolute positioning. This means that top and left are counted 
+                        relative to the top left of the document. To avoid using negative coordinates, which would cause the image to move outside of the visible page, you 
+                        can add a fixed number of pixels to the position values.</p>
+                        
+                        <img src="cat.png" id="cat" style="position: absolute">
+                        <img src="hat.png" id="hat" style="position: absolute">
+            </ol>
+
+            <script src="main.js"></script>
+        </body>
+    </html>
