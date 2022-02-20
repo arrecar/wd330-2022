@@ -119,4 +119,34 @@ body {
   .addBtn:hover {
     background-color: #bbb;
   }
-  
+
+  #buttons {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+  #buttons span {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+  }
+
+  #buttons span:hover {
+    background-color: #000;
+  }
+
+  #buttons span.active {
+    background-color: white;
+    color:#555;
+    border-style: solid;
+    border-color: #555;
+  }
+
+  .taskleft {
+    font-weight: bold;
+  }
