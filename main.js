@@ -21,7 +21,7 @@ const links = [
     },
     {
       label: "Midterm",
-      url: "https://arrecar.github.io/wd330-2022/midterm_todo_app/"
+      url: "https://arrecar.github.io/wdd330-2022/midterm_todo_app/"
     },
     {
       label: "Week7",
