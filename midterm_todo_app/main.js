@@ -1,8 +1,9 @@
 import * as localS from './modules/localStorage.js';
 import * as util from './modules/utilities.js';
 
-util.updateTasksLeft();
 localStorage.clear();
+util.updateTasksLeft();
+
 
 document.getElementById("add").onclick = localS.addItem;
 //completing items and removing items
