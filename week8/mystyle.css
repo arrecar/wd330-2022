@@ -1,0 +1,47 @@
+.ad-ad2 h4:hover span {
+    color: #484848;  
+    transform: translateX(40px) scale(2) rotate(10deg);
+    display: inline-block;
+}
+
+.transit {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 4s ease-in-out 0.5s
+  }
+
+.transit:hover {
+    width: 400px;
+}
+
+.anim {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+@keyframes example {
+    0%   {
+  left:0px; top:0px
+  ;}
+    25%  {
+  left:0px; top:200px
+  ;}
+    50%  {
+  left:200px; top:200px
+  ;}
+    75%  {
+  left:200px; top:0px
+  ;}
+    100% {
+  left:0px; top:0px
+  ;}
+  }
+
+  .myCanvas {
+    border: dotted 2px black;
+}
