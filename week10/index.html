@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment10</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Mortgage Calculator</h1>
+        <form id="form" action="" method="GET">
+            <label for="apr">APR (Annual Percentage Rate)</label>
+            <input type="text" id="apr" name="apr" placeholder="0.00%-25.00%" onchange="chckApr()">
+            <p id="aprErr"></p>
+            <label for="term">Loan Term (in years)</label>
+            <input type="text" id="term" name="term" placeholder="0-40" onchange="chckTerm()">
+            <p id="termErr"></p>
+            <label for="amount">Loan Amount (in dollars)</label>
+            <input type="text" id="amount" name="amount" onchange="chckAmount()">
+            <p id="amountErr"></p>
+            <input type="button" onclick="clear_form()" value="Clear Form" id="clear">
+            <input type="button" onclick="result()" value="submit">
+            <p id="result"></p>
+        </form>
+        <p id="ha"></p>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>

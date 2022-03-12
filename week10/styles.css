@@ -1,0 +1,55 @@
+#main{
+    margin:auto;
+    width: 60%;
+    text-align: center;
+}
+h1 {
+    background-color: burlywood;
+}
+#form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color:rgba(142, 212, 212, 0.925);
+    width: 50%;
+    margin:auto;
+}
+#aprErr, #termErr,#amountErr{
+    display:none;
+    color:red;
+}
+label{
+    margin-top:2em;
+}
+#clear{
+    margin-top: 2em;
+}
+#calculate{
+    margin-bottom: 2em;
+}
+
+input[type=text]{
+    width: 25em;
+    border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button]{
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+#payment{
+    background-color: darkred;
+    color:white;
+}
+
+td,th {
+    border-style:outset;
+}
