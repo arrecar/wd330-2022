@@ -46,6 +46,8 @@ function displayGame(){
        document.getElementById("hint").style.visibility = "hidden";
        document.getElementById("disHint").style.visibility = "hidden";
        document.getElementById("message").classList.remove("success");
+       document.getElementById("message").classList.remove("fail");
+
 
 }
 
