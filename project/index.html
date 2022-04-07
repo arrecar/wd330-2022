@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Formula 1 - Guess the driver</title> 
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+            <h1>Guess the Anime</h1>
+            <button id="start" onclick="getAnime()">Click here to start the game</button>
+        </div>
+        <div class="animeinfo">
+            <div id="image">
+                <img id="myimage"> 
+            </div>
+            <div id="name">
+                <p id="name"></p>
+            </div>
+        </div>
+        <div class="interaction">
+            <div id="form">
+                <label for="fname">Enter the name of the Anime</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <button id="guess" onclick="checkAnime()">Check</button>
+            </div>
+            <div id="response">
+                <p id="message"></p>
+                <button id="hint" onclick="displayHint()">Hints</button>
+            </div>
+        
+            <div id="disHint">
+                <p id="hints"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src='script.js'></script>
+</body>
+</html>

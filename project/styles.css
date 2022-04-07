@@ -1,0 +1,66 @@
+#form{
+    visibility: hidden;
+}
+
+#myimage{
+    filter:blur(10px);
+}
+
+#name{
+    margin-top:20px;
+    font-size: 1.5em;
+}
+
+#hint{
+    visibility: hidden;
+}
+
+.page-wrapper{
+    margin: auto;
+    width: 50%;
+    background-color: #f6f4e8;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.header{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.animeinfo{
+    grid-row: 2;
+    grid-column:1;
+    text-align: center;
+    margin-left:50px;
+}
+
+.interaction{
+    grid-row:2;
+    grid-column: 2;
+    text-align: center;
+    margin-right:50px;
+}
+
+
+.success{
+    font-size: 3rem;
+    color:green;
+    text-align: center;
+    width: fit-content;
+}
+
+#disHint{
+    text-align: center;
+}
+
+.fail{
+    font-size: 3rem;
+    color:red;
+    text-align: center;
+    width: fit-content;
+}
