@@ -39,6 +39,10 @@ const links = [
       label: "Week10",
       url: "https://arrecar.github.io/wdd330-2022/week10"
     }
+    {
+      label: "Project",
+      url: "https://arrecar.github.io/wdd330-2022/project"
+    }
 ]
 
   var arrayLength = links.length;
