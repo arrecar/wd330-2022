@@ -75,7 +75,7 @@ function checkAnime(){
                 break;
             case 0:
                 document.getElementById("message").classList.add("fail");
-                document.getElementById("message").innerHTML = "Incorrect. No more tries. Look above to the left!!";
+                document.getElementById("message").innerHTML = "Incorrect. No more tries. Look to the left to see the answer!!";
                 document.getElementById("myimage").style.filter = "blur(0px)";
                 document.getElementById("name").style.filter = "blur(0px)";
                 document.getElementById("hint").style.visibility = "hidden";
